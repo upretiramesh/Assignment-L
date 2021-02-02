@@ -72,9 +72,15 @@ print('#######################')
 # print(yhat[:20])
 print('######################')
 
+
 # Calculate accuracy
 print('Mean square error: ', accuracy.mse_score(y_test, yhat))
 print('Root mean square error: ', accuracy.rmse_score(y_test, yhat))
 print('Residual sum of square:', accuracy.rss_score(y_test, yhat))
 print('Mean absolute error: ', accuracy.mae_score(y_test, yhat))
 print('R-square error: ', accuracy.r2_score(y_test, yhat))
+
+# Plot the graph
+"""
+plot the loss graph
+"""
